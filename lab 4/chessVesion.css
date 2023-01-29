@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./img/wp5193760.jpg);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 63, 0.717);
+    
+}
+#board{
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    border: 2px solid rgb(233, 226, 226);
+    color: rgb(1, 63, 14);
+    position:relative;
+    top:3vw;
+    left: 6vw;
+}
+#show{
+    display: inline-block;
+    width: 35vw;
+    height: 35vw;
+    position:absolute;
+    top:10vw;
+    left: 10vw;
+    font-size: 20vw;
+    color:rgb(233, 226, 226);
+    text-shadow: 15px 15px 40px rgb(133, 83, 83);
+    text-align: center;
+    display: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#b1{
+    position: absolute;
+    top: 6vw;
+    left: 67vw;
+    width: 11vw;
+    height: 3.5vw;
+    font-size: 2vw;
+    color:  rgba(0, 0, 63, 0.717);
+    background-color: rgb(165, 165, 191);
+    border: 2px solid white;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 10px 2px white;
+    font-weight:bold ;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 23vw;
+    left: 50vw;
+    width: 45vw;
+    height: 20vw;
+    background-color: rgba(0, 0, 63, 0.717);
+    border: 2px solid rgba(245, 245, 245, 0.517);
+    border-radius: 2vw;
+    display:none;
+    padding: 0.5vw;
+    overflow:auto;
+    
+}
+#board,#b1:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 2px white , 1px 1px 10px 2px black inset;
+
+}
+
+#target,#timer,#score{
+    position: absolute;
+    top :14vw;
+    left:50vw ;
+    border: 2px solid rgba(245, 245, 245, 0.517);
+    background-color: rgba(0, 0, 63, 0.717);
+    width: 8vw;
+    height: 8vw;
+    font-size: 4vw;
+    color: white;
+    border-radius: 2vw;
+    padding: 1.75vw;
+    display: none;
+    
+}
+#timer{
+    top: 5vw;
+}
+#score{
+    left: 61vw;
+    padding:1.5vw 3vw;
+}
+#sp{
+    display: none;
+    position: absolute;
+    top :8.5vw;
+    left:62.4vw;
+    color: white;
+    font-size: 2.5vw;
+
+}
+.title{
+    position: absolute;
+    top: 0;
+    left:60vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px white;
+    font-size: 3vw;
+    display: inline;
+}
